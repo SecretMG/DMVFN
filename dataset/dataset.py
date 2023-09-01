@@ -310,7 +310,7 @@ class UCFTrainDataset(Dataset):
 class VimeoValDataset(Dataset):
     def __init__(self):
         self.val_data = []
-        self.video_path = './data/vimeo_interp_test/target/'
+        self.video_path = '/home/mingruibo/data/datasets/vimeo_interp_test/target'
         self.data_name = []
         self.video_list = sorted(os.listdir(self.video_path))
         for i in self.video_list:
